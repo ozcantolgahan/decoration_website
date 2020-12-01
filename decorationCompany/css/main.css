@@ -1,0 +1,232 @@
+header {
+  background-color: #DDDBD9;
+  overflow: auto;
+}
+
+.hidden-menu {
+  background-color: #333333;
+  position: fixed;
+  display: none;
+  z-index: 10000;
+  top: 0%;
+}
+
+.hidden-menu nav {
+  float: left;
+}
+
+.hidden-menu ul {
+  list-style-type: none;
+}
+
+.hidden-menu ul li a {
+  text-decoration: none;
+}
+
+.hidden-menu .close-menu {
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+.banner-main {
+  background-color: #DDDBD9;
+}
+
+.banner-main .banner-image {
+  background-image: url(../img/header-banner.png);
+  height: 38rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-main .banner-info-area {
+  background-color: white;
+}
+
+.banner-main .mini-images .col:nth-child(1) {
+  background-image: url("../img/head-image-1.png");
+  height: 11rem;
+  background-size: cover;
+}
+
+.banner-main .mini-images .col:nth-child(2) {
+  background-image: url("../img/head-image-2.png");
+  height: 11rem;
+  background-size: cover;
+}
+
+.banner-main .mini-images .col:nth-child(3) {
+  background-image: url("../img/head-image-3.png");
+  height: 11rem;
+  background-size: cover;
+}
+
+.main-cards {
+  background-color: #DDDBD9;
+}
+
+.main-cards .card:nth-child(1) .card-image-url {
+  display: inline-block;
+  margin: auto;
+  width: 62px;
+  height: 62px;
+  background-image: url("../img/project.png");
+}
+
+.main-cards .card:nth-child(1):hover .card-image-url {
+  background-image: url(../img/project-hover.png);
+}
+
+.main-cards .card:nth-child(2) .card-image-url {
+  display: inline-block;
+  margin: auto;
+  width: 62px;
+  height: 62px;
+  background-image: url("../img/decoration.png");
+}
+
+.main-cards .card:nth-child(2):hover .card-image-url {
+  background-image: url(../img/decoration-hover.png);
+}
+
+.main-cards .card:nth-child(3) .card-image-url {
+  display: inline-block;
+  margin: auto;
+  width: 62px;
+  height: 62px;
+  background-image: url("../img/team.png");
+}
+
+.main-cards .card:nth-child(3):hover .card-image-url {
+  background-image: url(../img/team-hover.png);
+}
+
+.main-cards .card:hover {
+  background-color: #333333;
+  cursor: pointer;
+  color: white;
+}
+
+.information-main-area {
+  background-color: #DDDBD9;
+}
+
+.information-main-area .row:nth-child(1) .col:nth-child(1) {
+  background-image: url("../img/information-card-1.png");
+  height: 17rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.information-main-area .row:nth-child(1) .col:nth-child(2) {
+  background-color: white;
+  padding-top: 3.8rem;
+}
+
+.information-main-area .row:nth-child(2) .col:nth-child(2) {
+  background-image: url("../img/information-card-2.png");
+  height: 17rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.information-main-area .row:nth-child(2) .col:nth-child(1) {
+  background-color: #333333;
+  padding-top: 3.8rem;
+}
+
+.information-main-decoration {
+  background-color: white;
+}
+
+.main-design-parts {
+  background-color: #DDDBD9;
+}
+
+.main-design-parts .design-blog-main-image {
+  background-image: url("../img/design-image-1.png");
+  height: 32rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-design-parts .design-blog:nth-child(1) .col:nth-child(1) {
+  background-color: white;
+}
+
+.main-design-parts .design-blog:nth-child(1) .col:nth-child(2) {
+  background-image: url("../img/design-image-2.png");
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-design-parts .design-blog:nth-child(2) .col:nth-child(2) {
+  background-color: white;
+}
+
+.main-design-parts .design-blog:nth-child(2) .col:nth-child(1) {
+  background-image: url("../img/design-image-3.png");
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-re-info {
+  background-color: white;
+}
+
+.main-re-info .col:nth-child(1) {
+  background-image: url("../img/re-info-image-1.png");
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+  margin-right: 2rem;
+}
+
+.main-re-info .col:nth-child(2) {
+  background-image: url("../img/re-info-image-2.png");
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-re-info-cards {
+  background-color: #DDDBD9;
+}
+
+.main-comment-part {
+  background-color: white;
+}
+
+.main-comment-part .row:nth-child(1) .col:nth-child(1) {
+  border-left: 3px solid red;
+}
+
+.main-comment-part .row:nth-child(1) .col:nth-child(2) {
+  background-image: url("../img/comment-image-1.png");
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-comment-part .row:nth-child(2) .col:nth-child(2) {
+  border-right: 3px solid red;
+}
+
+.main-comment-part .row:nth-child(2) .col:nth-child(1) {
+  background-image: url("../img/comment-image-2.png");
+  height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  background-color: #333333;
+}
+
+html {
+  font-size: 16px;
+}
+/*# sourceMappingURL=main.css.map */
